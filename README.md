@@ -8,6 +8,11 @@ Using context API as base for switching languages.
 <img align="left" src="https://img.shields.io/badge/-Styled%20Components-white?style=for-the-badge&logo=styled-components&logoColor=DB7093" />
 
 
+## Live Version
+
+https://context-api-languages-use-state.vercel.app/
+
+
 ## Getting Started
 
 First, run the development server:
