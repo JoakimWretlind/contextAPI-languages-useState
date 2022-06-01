@@ -5,7 +5,6 @@ import AppContext from '../../AppContext'
 
 export const Navbar = () => {
     const value = useContext(AppContext);
-    let { languageSelected } = value.state;
     let { navbarAboutLink, navbarContactLink } = value.state.languages;
 
     return (
@@ -20,8 +19,8 @@ export const Navbar = () => {
                 <Link href="/contact" passHref>
                     <NavA>{navbarContactLink}</NavA>
                 </Link>
-
             </NavUL>
+
             <LanguageContainer>
                 <Item onClick={() => value.setLanguageSelected("en")}>English</Item>
                 <Item onClick={() => value.setLanguageSelected("es")}>Spanish</Item>

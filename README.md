@@ -9,9 +9,8 @@ Using context API as base for switching languages.
 </br>
 
 
-## Live Version
-
-https://context-api-languages-use-state.vercel.app/
+## Test It
+[demo](https://context-api-languages-use-state.vercel.app/)
 
 
 ## Getting Started
